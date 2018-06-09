@@ -1,7 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="" />
+    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="1 ML linear regression">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/.ipynb_checkpoints/ai-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/ai.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/cs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/abnormal.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/adult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/bike_day.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/bike_hour.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/blue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/car.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/chair.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/deformed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/event.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/events.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Bob/image_0019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Bob/image_0020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Bob/image_0021.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Roy/image_0039.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Roy/image_0040.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Roy/image_0041.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Sala/image_0087.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Sala/image_0088.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/testing/Sala/image_0089.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Bob/image_0018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0022.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0023.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0024.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0025.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0026.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0027.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0028.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0029.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0030.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0031.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0032.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0033.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0034.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0035.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0036.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0037.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Roy/image_0038.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0069.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0070.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0071.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0072.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0073.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0074.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0075.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0076.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0077.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0078.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0079.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0081.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0082.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0083.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0084.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0085.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/faces/training/Sala/image_0086.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/filter.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/flower.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/forest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/freq.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/goog.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/green.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/haar/eye.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/haar/face.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/haar/nose.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/hmm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/imbalance.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/knn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/linear.mod" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/linear.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/lvq.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/mono.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/multiple1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/multiple2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/multiple3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/music.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/noised.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/testing/airplane/0020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/testing/car/image_0526.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/testing/motorbike/0020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/airplane/0019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0122.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0134.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0139.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0161.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0178.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0211.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0253.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0284.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0289.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0294.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0356.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0379.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0445.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0467.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0503.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/car/image_0508.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/objects/training/motorbike/0019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/ocrdb.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/penguin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/perf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/ratings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/sales.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/signal.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/signals.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/single.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/apple/apple15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/banana/banana15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/kiwi/kiwi15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/lime/lime15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/orange/orange15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/peach/peach15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/testing/pineapple/pineapple15.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/apple/apple14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/banana/banana14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/kiwi/kiwi14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/lime/lime14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/orange/orange14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/peach/peach14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple01.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple02.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple03.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple04.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple05.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple06.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple07.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple08.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple09.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple10.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple11.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple12.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple13.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/speeches/training/pineapple/pineapple14.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/sunrise.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/table.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/topic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/traffic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/data/ts.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/load_mySingleModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/mylinear.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/mymodel/my_single_model.mod" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/summary.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/vector_sum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ai/weekday.py" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,44 +296,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="vector_sum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai/vector_sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mylinear.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai/mylinear.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="104" selection-end-column="10" />
-              <folding>
-                <element signature="e#110#123#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_mySingleModel.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ai/load_mySingleModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="e#120#133#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,12 +320,13 @@
         <option value="$PROJECT_DIR$/ai/mylinear.py" />
         <option value="$PROJECT_DIR$/ai/load_mysinglemodel.py" />
         <option value="$PROJECT_DIR$/ai/load_mySingleModel.py" />
+        <option value="$PROJECT_DIR$/ai/ridge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="324" />
-    <option name="y" value="95" />
+    <option name="x" value="562" />
+    <option name="y" value="12" />
     <option name="width" value="1250" />
     <option name="height" value="920" />
   </component>
@@ -128,17 +378,6 @@
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ai" type="462c0819:PsiDirectoryNode" />
-              <item name="mymodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
               <item name="pandas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -154,7 +393,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytensorflow" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +407,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.load_mysinglemodel">
+  <component name="RunManager" selected="Python.ridge">
     <configuration name="load_mysinglemodel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,9 +425,31 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="ridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mypython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai/ridge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.load_mysinglemodel" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ridge" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.load_mysinglemodel" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.ridge" />
+        <item index="1" class="java.lang.String" itemvalue="Python.load_mysinglemodel" />
       </list>
     </recent_temporary>
   </component>
@@ -228,15 +489,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="324" y="95" width="1250" height="920" extended-state="0" />
+    <frame x="562" y="12" width="1250" height="920" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.50344825" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.50517243" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -249,6 +510,62 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.50344825" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -285,33 +602,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai/vector_sum.py">
+    <entry file="file://$PROJECT_DIR$/ai/load_mySingleModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ai/mylinear.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="104" selection-end-column="10" />
-          <folding>
-            <element signature="e#110#123#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai/load_mySingleModel.py">
+    <entry file="file://$PROJECT_DIR$/ai/vector_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="e#120#133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-319">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai/ridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
