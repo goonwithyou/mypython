@@ -4,7 +4,8 @@
 
 # 2 contents
 ---
-1. network相关模块
+1. network相关模块(建议使用\*nix系统)
     - socket: 创建网络服务接口
     - select: IO多路复用基础模块
-    - selectors: IO多路复用高级模块（常用）
+    - selectors: IO多路复用高级模块（常用）(ing)
+    - collections: 集合的相关应用（ing）
