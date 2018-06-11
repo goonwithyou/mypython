@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="update readme.ipynb to readme.md">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myprocess.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/net/net_program_basic.ipynb" afterPath="" />
+    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/modules_multiprocessing.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" afterPath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/ml.ipynb" afterPath="$PROJECT_DIR$/ml/ml.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_multiprocessing-checkpoint.ipynb" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_multiprocessing-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/readme.md" afterPath="$PROJECT_DIR$/modules/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" afterPath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/readme.md" afterPath="$PROJECT_DIR$/net/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -327,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528559784900</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="僵尸进程&#10;孤儿进程&#10;modules&#10;- os.fork&#10;- multiprocessing">
+      <created>1528725926154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528725926154</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -419,7 +425,8 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="update ai to ml&#10;&#10;rename" />
     <MESSAGE value="update readme.ipynb to readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme.ipynb to readme.md" />
+    <MESSAGE value="僵尸进程&#10;孤儿进程&#10;modules&#10;- os.fork&#10;- multiprocessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="僵尸进程&#10;孤儿进程&#10;modules&#10;- os.fork&#10;- multiprocessing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
