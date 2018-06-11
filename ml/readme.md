@@ -1,6 +1,6 @@
 # 1 Introduction
 ---
-此文件夹为机器学习的相关笔记，
+此文件夹为机器学习的相关笔记，主文件为`ml.ipynb`
 
 # 2 contents
 ---
