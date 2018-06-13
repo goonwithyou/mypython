@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/bike.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_itertools-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/.ipynb_checkpoints/modules_multiprocessing-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myArray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myPipe.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myPool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myProcess.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myQueue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/myValue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/multiprocessing/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neural_network/.ipynb_checkpoints/neural_network-checkpoint.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/multiprocessing/myprocess.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" afterPath="" />
+    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="update myprocess">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/mySimple.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" afterPath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/bike.py" afterPath="$PROJECT_DIR$/ml/bike.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/ml.ipynb" afterPath="$PROJECT_DIR$/ml/ml.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/multiprocessing/modules_multiprocessing.ipynb" afterPath="$PROJECT_DIR$/modules/multiprocessing/modules_multiprocessing.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" afterPath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,25 +19,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="myEasyNN.py" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="myEasyNN.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neural_network/myEasyNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="48">
+              <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
-                <element signature="e#111#129#0" expanded="true" />
+                <element signature="e#111#124#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myProcess.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myProcess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +63,6 @@
         <option value="$PROJECT_DIR$/ai/ridge.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myprocess.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" />
-        <option value="$PROJECT_DIR$/ml/bike.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/test.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/processTest.py" />
         <option value="$PROJECT_DIR$/ml/test.py" />
@@ -96,13 +72,17 @@
         <option value="$PROJECT_DIR$/modules/multiprocessing/myValue.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myArray.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myProcess.py" />
+        <option value="$PROJECT_DIR$/ml/bike.py" />
+        <option value="$PROJECT_DIR$/ml/mySimple.py" />
+        <option value="$PROJECT_DIR$/modules/multiprocessing/myEvent.py" />
         <option value="$PROJECT_DIR$/neural_network/myEasyNN.py" />
+        <option value="$PROJECT_DIR$/neural_network/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="549" />
-    <option name="y" value="42" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="692" />
+    <option name="y" value="107" />
     <option name="width" value="1250" />
     <option name="height" value="920" />
   </component>
@@ -143,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,17 +131,6 @@
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="multiprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
@@ -175,12 +145,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytensorflow" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\softfiles\workspace\git\mypython\ml" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,20 +168,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myEasyNN">
-    <configuration name="myArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="bike" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/multiprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/multiprocessing/myArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/bike.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,59 +220,62 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myQueue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mySimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/multiprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/multiprocessing/myQueue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/mySimple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myValue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/multiprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_network" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/multiprocessing/myValue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_network/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.myQueue" />
-      <item index="1" class="java.lang.String" itemvalue="Python.myValue" />
-      <item index="2" class="java.lang.String" itemvalue="Python.myArray" />
-      <item index="3" class="java.lang.String" itemvalue="Python.myProcess" />
-      <item index="4" class="java.lang.String" itemvalue="Python.myEasyNN" />
+      <item index="0" class="java.lang.String" itemvalue="Python.myProcess" />
+      <item index="1" class="java.lang.String" itemvalue="Python.myEasyNN" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bike" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mySimple" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.myEasyNN" />
-        <item index="1" class="java.lang.String" itemvalue="Python.myProcess" />
-        <item index="2" class="java.lang.String" itemvalue="Python.myArray" />
-        <item index="3" class="java.lang.String" itemvalue="Python.myValue" />
-        <item index="4" class="java.lang.String" itemvalue="Python.myQueue" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.myEasyNN" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mySimple" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bike" />
+        <item index="4" class="java.lang.String" itemvalue="Python.myProcess" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Cap\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -385,19 +362,62 @@
       <option name="project" value="LOCAL" />
       <updated>1528813420351</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="net basic">
+      <created>1528813523503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528813523503</updated>
+    </task>
+    <task id="LOCAL-00013" summary="multiprocessing-process, pool, pipe queue, value, array">
+      <created>1528813789960</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528813789960</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update myprocess">
+      <created>1528813853946</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528813853946</updated>
+    </task>
+    <task id="LOCAL-00015" summary="完成multiprocessing模块的相关内容，&#10;主要内容有：&#10;1. Process&#10;2. 进程池&#10;3. 进程间通信&#10;4. 同步互斥机制">
+      <created>1528888976222</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1528888976222</updated>
+    </task>
+    <task id="LOCAL-00016" summary="开始线程的学习，由于在python中线程和进程的相关方法比较类似，所以没有重点记录&#10;新增threading模块">
+      <created>1528889122334</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528889122334</updated>
+    </task>
+    <task id="LOCAL-00017" summary="神经网络&#10;完成简单的神经网络实现，基于minist数据集&#10;对代码进行了修改和包装，新增的方法有&#10;train_model&#10;pridict_model&#10;save_params(只对训练参数进行了保存，pickle对实例的保存暂未实现)&#10;load_model等">
+      <created>1528889315461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528889315461</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="549" y="42" width="1250" height="920" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30172414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3012959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.50517243" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.50517243" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16666667" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2862233" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -482,7 +502,13 @@
     <MESSAGE value="文件名定义imp导致导入错误" />
     <MESSAGE value="multiprocessing-process, pool, pipe queue, value, array&#10;neuralnetwork:python实现神经网络，数字识别（mnist）" />
     <MESSAGE value="neuralnetwork:python实现神经网络，数字识别（mnist）" />
-    <option name="LAST_COMMIT_MESSAGE" value="neuralnetwork:python实现神经网络，数字识别（mnist）" />
+    <MESSAGE value="net basic" />
+    <MESSAGE value="multiprocessing-process, pool, pipe queue, value, array" />
+    <MESSAGE value="update myprocess" />
+    <MESSAGE value="完成multiprocessing模块的相关内容，&#10;主要内容有：&#10;1. Process&#10;2. 进程池&#10;3. 进程间通信&#10;4. 同步互斥机制" />
+    <MESSAGE value="开始线程的学习，由于在python中线程和进程的相关方法比较类似，所以没有重点记录&#10;新增threading模块" />
+    <MESSAGE value="神经网络&#10;完成简单的神经网络实现，基于minist数据集&#10;对代码进行了修改和包装，新增的方法有&#10;train_model&#10;pridict_model&#10;save_params(只对训练参数进行了保存，pickle对实例的保存暂未实现)&#10;load_model等" />
+    <option name="LAST_COMMIT_MESSAGE" value="神经网络&#10;完成简单的神经网络实现，基于minist数据集&#10;对代码进行了修改和包装，新增的方法有&#10;train_model&#10;pridict_model&#10;save_params(只对训练参数进行了保存，pickle对实例的保存暂未实现)&#10;load_model等" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -495,9 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#116#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,24 +528,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="37" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/processTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myprocesses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/processTest.py" />
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" />
     <entry file="file://$PROJECT_DIR$/pandas/pandas_data_structure.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -542,21 +552,10 @@
     <entry file="file://$PROJECT_DIR$/ai/mylinear.py" />
     <entry file="file://$PROJECT_DIR$/ai/vector_sum.py" />
     <entry file="file://$PROJECT_DIR$/ai/ridge.py" />
-    <entry file="file://$PROJECT_DIR$/ml/bike.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#116#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ml/ridge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="37" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-406">
           <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#108#119#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2430">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#109#141#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#109#141#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#110#143#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,53 +605,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="e#110#143#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myprocesses.py">
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" />
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/processTest.py" />
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myProcess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="335">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/processTest.py">
+    <entry file="file://$PROJECT_DIR$/ml/bike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="139">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/mySimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#116#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-949113332/_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="1352" column="8" lean-forward="false" selection-start-line="1352" selection-start-column="8" selection-end-line="1352" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myEvent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_network/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <element signature="e#110#143#0" expanded="false" />
+            <element signature="e#259#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/myEasyNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="48">
+          <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
           <folding>
-            <element signature="e#111#129#0" expanded="true" />
+            <element signature="e#111#124#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myProcess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
