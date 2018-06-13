@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="update myprocess">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/mySimple.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" afterPath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/bike.py" afterPath="$PROJECT_DIR$/ml/bike.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/ml.ipynb" afterPath="$PROJECT_DIR$/ml/ml.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -404,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528889315461</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="无关紧要的提交">
+      <created>1528889369445</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528889369445</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,7 +512,8 @@
     <MESSAGE value="完成multiprocessing模块的相关内容，&#10;主要内容有：&#10;1. Process&#10;2. 进程池&#10;3. 进程间通信&#10;4. 同步互斥机制" />
     <MESSAGE value="开始线程的学习，由于在python中线程和进程的相关方法比较类似，所以没有重点记录&#10;新增threading模块" />
     <MESSAGE value="神经网络&#10;完成简单的神经网络实现，基于minist数据集&#10;对代码进行了修改和包装，新增的方法有&#10;train_model&#10;pridict_model&#10;save_params(只对训练参数进行了保存，pickle对实例的保存暂未实现)&#10;load_model等" />
-    <option name="LAST_COMMIT_MESSAGE" value="神经网络&#10;完成简单的神经网络实现，基于minist数据集&#10;对代码进行了修改和包装，新增的方法有&#10;train_model&#10;pridict_model&#10;save_params(只对训练参数进行了保存，pickle对实例的保存暂未实现)&#10;load_model等" />
+    <MESSAGE value="无关紧要的提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="无关紧要的提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

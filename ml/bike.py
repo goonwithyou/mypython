@@ -21,7 +21,7 @@ def read_data(filename, fb, fe):
             y.append(row[-1])
         fn = np.array(x[0])
         x = np.array(x[1:], dtype=float)
-        y = np.array(x[1:], dtype=float)
+        y = np.array(y[1:], dtype=float)
         x, y = su.shuffle(x, y ,random_state=7)
     return fn, x, y
 
@@ -51,13 +51,13 @@ def init_model_day():
     mp.title('Random Forest Regression By Day', fontsize=16)
     mp.xlabel('Feature', fontsize=12)
     mp.ylabel('Importance', fontsize=12)
-    mp.tick_params(which='both', top=True, right=True, labelright=True, lablesize=10)
+    mp.tick_params(which='both', top=True, right=True, labelright=True, labelsize=10)
     mp.grid(axis='y', linestyle=':')
 
 
 def draw_model_day(fn_day, fi_day):
     fi_day = (fi_day * 100) / fi_day.max()
-    sorted_indices = np.fliput(fi_day.argsort())
+    sorted_indices = np.flipud(fi_day.argsort())
     pos = np.arange(sorted_indices.size)
     mp.bar(pos, fi_day[sorted_indices], align='center',
            facecolor='deepskyblue', edgecolor='steelblue',
@@ -66,25 +66,63 @@ def draw_model_day(fn_day, fi_day):
     mp.legend()
 
 
+def init_model_hour():
+    mp.gcf().set_facecolor(np.ones(3) * 240 / 255)
+    mp.subplot(212)
+    mp.title('Random Forest Regression By Hour', fontsize=16)
+    mp.xlabel('Feature', fontsize=12)
+    mp.ylabel('Importance', fontsize=12)
+    mp.tick_params(which='both', top=True, right=True, labelright=True, labelsize=10)
+    mp.grid(axis='y', linestyle=':')
+
+
 def draw_model_hour(fn_hour, fi_hour):
     fi_day = (fi_hour * 100) / fi_hour.max()
-    sorted_indices = np.fliput(fi_day.argsort())
+    sorted_indices = np.flipud(fi_day.argsort())
     pos = np.arange(sorted_indices.size)
     mp.bar(pos, fi_day[sorted_indices], align='center',
-           facecolor='deepskyblue', edgecolor='steelblue',
-           label='Decision Tree')
+           facecolor='lightcoral', edgecolor='indianred',
+           label='Hour')
     mp.xticks(pos, fn_hour[sorted_indices])
     mp.legend()
 
 
 def show_chart():
+    mp.tight_layout()
     mp.show()
 
 
 def main():
-    fn, x, y = read_data('/data/bike_day.csv')
-    fn, x, y = read_data('/data/bike_hour.csv')
-# 31 536
+    fn_day, x_day, y_day = read_data('./data/bike_day.csv', 2, 13)
+    train_size_day = int(len(x_day) * 0.8)
+    train_x_day = x_day[:train_size_day]
+    train_y_day = y_day[:train_size_day]
+    model_day = train_model(train_x_day, train_y_day)
+    test_x_day = x_day[train_size_day:]
+    test_y_day = y_day[train_size_day:]
+    pred_test_day = pred_model(model_day, test_x_day)
+    eval_model(test_y_day, pred_test_day)
+    fi_day = model_day.feature_importances_
+
+    fn_hour, x_hour, y_hour = read_data('./data/bike_hour.csv', 2, 14)
+    train_size_hour = int(len(x_day) * 0.8)
+    train_x_hour = x_hour[:train_size_hour]
+    train_y_hour = y_hour[:train_size_hour]
+    model_hour = train_model(train_x_hour, train_y_hour)
+    test_x_hour = x_hour[train_size_hour:]
+    test_y_hour = y_hour[train_size_hour:]
+    pred_test_hour = pred_model(model_hour, test_x_hour)
+    eval_model(test_y_hour, pred_test_hour)
+    fi_hour = model_hour.feature_importances_
+
+    # init_model_day()
+    # draw_model_day(fn_day, fi_day)
+    #
+    # init_model_hour()
+    # draw_model_hour(fn_hour, fi_hour)
+    #
+    # show_chart()
+
 
 if __name__ == '__main__':
     main()
