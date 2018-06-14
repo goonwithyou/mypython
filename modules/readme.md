@@ -11,3 +11,4 @@
     - collections: 集合的相关应用（ing）
     - multiprocessing
     - threading (ing)thread模块的内容和multiprocessing模块的使用方法基本类似，可以先查看multiprocessing模块的内容，这里的threading模块没有详细介绍。
+    - signal : 常用于进程间的信号传递，
