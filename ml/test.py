@@ -2,7 +2,7 @@
 # @Author  : cap
 # @FileName: test.py.py
 # @Software: PyCharm Community Edition
+import numpy as np
 
-with open('./data/adult.txt', 'rb') as f:
-    l = f.read()
-    print(len(l))
+data = np.loadtxt('./data/multiple1.txt', delimiter=',')
+print(data)

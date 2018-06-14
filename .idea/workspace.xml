@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="机器学习：&#10;简单分类&#10;机器学习方面进度较慢，需要调整。">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/threading/myGILTest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/threading/write.txt" afterPath="" />
+    <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myCrossValidation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myLogistic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myNaiveBayes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myTrainTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/readme.md" afterPath="$PROJECT_DIR$/modules/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" afterPath="$PROJECT_DIR$/net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" afterPath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/ml.ipynb" afterPath="$PROJECT_DIR$/ml/ml.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/test.py" afterPath="$PROJECT_DIR$/ml/test.py" />
     </list>
     <ignored mask=".ipynb_checkpoints/" />
     <ignored path="modules/threading/.ipynb_checkpoints/" />
     <ignored path=".idea/" />
+    <ignored path="modules/signal/.ipynb_checkpoints/signal-checkpoint.ipynb" />
     <manually-removed-from-ignored>
       <directory path="/" />
     </manually-removed-from-ignored>
@@ -26,7 +28,64 @@
     <favorites_list name="mypython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf>
+      <file leaf-file-name="myNaiveBayes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml/myNaiveBayes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="e#114#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myTrainTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml/myTrainTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="89" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="89" selection-end-column="10" />
+              <folding>
+                <element signature="e#113#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myCrossValidation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml/myCrossValidation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="51" />
+              <folding>
+                <element signature="e#119#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiple1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml/data/multiple1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,7 +118,6 @@
         <option value="$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/test.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/processTest.py" />
-        <option value="$PROJECT_DIR$/ml/test.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myPool.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myPipe.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myQueue.py" />
@@ -75,12 +133,17 @@
         <option value="$PROJECT_DIR$/net/.ipynb_checkpoints/myForkClient.py" />
         <option value="$PROJECT_DIR$/net/myForkClient.py" />
         <option value="$PROJECT_DIR$/net/myForkServer.py" />
+        <option value="$PROJECT_DIR$/ml/myLogistic.py" />
+        <option value="$PROJECT_DIR$/ml/test.py" />
+        <option value="$PROJECT_DIR$/ml/myNaiveBayes.py" />
+        <option value="$PROJECT_DIR$/ml/myTrainTest.py" />
+        <option value="$PROJECT_DIR$/ml/myCrossValidation.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="432" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="559" />
+    <option name="y" value="44" />
     <option name="width" value="1250" />
     <option name="height" value="920" />
   </component>
@@ -133,12 +196,7 @@
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
@@ -155,11 +213,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\softfiles\workspace\git\mypython\net" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\softfiles\workspace\git\mypython\ml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\softfiles\workspace\git\mypython\net" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,106 +232,106 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myForkClient">
-    <configuration name="myEasyNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.myCrossValidation">
+    <configuration name="myCrossValidation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_network/myEasyNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myCrossValidation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myForkClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myLogistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/net/myForkClient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myLogistic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myForkServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myNaiveBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/net/myForkServer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myNaiveBayes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myGILTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myTrainTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/threading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/threading/myGILTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myTrainTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neural_network/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.myEasyNN" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.myGILTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.myForkServer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.myForkClient" />
+      <item index="0" class="java.lang.String" itemvalue="Python.myLogistic" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.myNaiveBayes" />
+      <item index="3" class="java.lang.String" itemvalue="Python.myTrainTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.myCrossValidation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.myForkClient" />
-        <item index="1" class="java.lang.String" itemvalue="Python.myForkServer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.myGILTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.myEasyNN" />
+        <item index="0" class="java.lang.String" itemvalue="Python.myCrossValidation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.myTrainTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.myNaiveBayes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.myLogistic" />
       </list>
     </recent_temporary>
   </component>
@@ -431,16 +489,24 @@
       <option name="project" value="LOCAL" />
       <updated>1528957479846</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="signal模块">
+      <created>1528977496667</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1528977496667</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="559" y="44" width="1250" height="920" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35907128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38275862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.50517243" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28503564" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.475" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -537,7 +603,8 @@
     <MESSAGE value="无关紧要的提交" />
     <MESSAGE value="机器学习：&#10;简单分类&#10;机器学习方面进度较慢，需要调整。" />
     <MESSAGE value="threading" />
-    <option name="LAST_COMMIT_MESSAGE" value="threading" />
+    <MESSAGE value="signal模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="signal模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,38 +613,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net/myForkClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net/myForkServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py" />
+    <entry file="file://$PROJECT_DIR$/net/myForkClient.py" />
+    <entry file="file://$PROJECT_DIR$/net/myForkServer.py" />
+    <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py" />
     <entry file="file://$PROJECT_DIR$/ml/bike.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/multiprocessing/myPool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
@@ -685,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySimple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-949113332/_io.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -721,34 +746,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/threading/write.txt">
+    <entry file="file://$PROJECT_DIR$/modules/threading/write.txt" />
+    <entry file="file://$PROJECT_DIR$/net/myForkClient.py" />
+    <entry file="file://$PROJECT_DIR$/net/myForkServer.py" />
+    <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py" />
+    <entry file="file://$PROJECT_DIR$/ml/myLogistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="87" selection-end-column="10" />
+          <folding>
+            <element signature="e#112#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/mySimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="78" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/multiple1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net/myForkClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/net/myForkServer.py">
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="-813">
+          <caret line="3175" column="4" lean-forward="false" selection-start-line="3175" selection-start-column="4" selection-end-line="3175" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py">
+    <entry file="file://$PROJECT_DIR$/ml/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#114#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myTrainTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="89" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="89" selection-end-column="10" />
+          <folding>
+            <element signature="e#113#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myCrossValidation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="e#119#137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
