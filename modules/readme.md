@@ -4,6 +4,8 @@
 
 # 2 contents
 ---
+1. 函数式编程
+    - itertools: 创建迭代器以及相关迭代操作
 1. network相关模块(建议使用\*nix系统)
     - socket: 创建网络服务接口
     - select: IO多路复用基础模块
@@ -12,3 +14,12 @@
     - multiprocessing
     - threading (ing)thread模块的内容和multiprocessing模块的使用方法基本类似，可以先查看multiprocessing模块的内容，这里的threading模块没有详细介绍。
     - signal : 常用于进程间的信号传递，
+    
+2. server
+    - httpserver : (ing)
+    - socketserver : (ing)
+3. 文件和文件夹
+    - pathlib : 文件、文件夹操作
+3. 协程
+    - greenlet:(ing)
+    - gevent:(ing)

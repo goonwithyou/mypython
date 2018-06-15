@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5bf74e7-a3c3-460d-8c69-44ac2716fd93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myCrossValidation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myLogistic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myNaiveBayes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myTrainTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/gevent/myGevent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/httpserver/myClientTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/httpserver/myHttpServer.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/modules_itertools.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/ml.ipynb" afterPath="$PROJECT_DIR$/ml/ml.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/test.py" afterPath="$PROJECT_DIR$/ml/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" afterPath="$PROJECT_DIR$/ml/.ipynb_checkpoints/ml-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_itertools-checkpoint.ipynb" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_itertools-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/multiprocessing/test.py" afterPath="$PROJECT_DIR$/modules/multiprocessing/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/readme.md" afterPath="$PROJECT_DIR$/modules/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/socket/net_socket.ipynb" afterPath="$PROJECT_DIR$/modules/socket/net_socket.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" afterPath="$PROJECT_DIR$/net/net_program_basic_2.ipynb" />
     </list>
     <ignored mask=".ipynb_checkpoints/" />
     <ignored path="modules/threading/.ipynb_checkpoints/" />
@@ -28,58 +32,36 @@
     <favorites_list name="mypython" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="myNaiveBayes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/myNaiveBayes.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="myHttpServer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/httpserver/myHttpServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="972">
+              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding>
-                <element signature="e#114#124#0" expanded="true" />
+                <element signature="e#115#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myTrainTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/myTrainTest.py">
+      <file leaf-file-name="myGevent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gevent/myGevent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="89" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#113#131#0" expanded="true" />
+                <element signature="e#110#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myCrossValidation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ml/myCrossValidation.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/multiprocessing/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="51" />
-              <folding>
-                <element signature="e#119#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiple1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/data/multiple1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -116,7 +98,6 @@
         <option value="$PROJECT_DIR$/ai/ridge.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myprocess.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myprocesses.py" />
-        <option value="$PROJECT_DIR$/modules/multiprocessing/test.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/processTest.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myPool.py" />
         <option value="$PROJECT_DIR$/modules/multiprocessing/myPipe.py" />
@@ -138,10 +119,14 @@
         <option value="$PROJECT_DIR$/ml/myNaiveBayes.py" />
         <option value="$PROJECT_DIR$/ml/myTrainTest.py" />
         <option value="$PROJECT_DIR$/ml/myCrossValidation.py" />
+        <option value="$PROJECT_DIR$/modules/httpserver/myClientTest.py" />
+        <option value="$PROJECT_DIR$/modules/httpserver/myHttpServer.py" />
+        <option value="$PROJECT_DIR$/modules/gevent/myGevent.py" />
+        <option value="$PROJECT_DIR$/modules/multiprocessing/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="559" />
     <option name="y" value="44" />
     <option name="width" value="1250" />
@@ -184,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +179,32 @@
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypython" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="gevent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypython" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="gevent" type="462c0819:PsiDirectoryNode" />
+              <item name="myGevent.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypython" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="httpserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypython" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="multiprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
@@ -206,6 +214,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myCrossValidation">
+  <component name="RunManager" selected="Python.test">
     <configuration name="myCrossValidation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,19 +260,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myLogistic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myHttpServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/httpserver" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myLogistic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/httpserver/myHttpServer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,37 +311,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/multiprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/multiprocessing/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.myLogistic" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.myNaiveBayes" />
-      <item index="3" class="java.lang.String" itemvalue="Python.myTrainTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.myCrossValidation" />
+      <item index="0" class="java.lang.String" itemvalue="Python.myNaiveBayes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.myTrainTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.myCrossValidation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.myHttpServer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.myCrossValidation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.myTrainTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.myNaiveBayes" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.myLogistic" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.myHttpServer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.myCrossValidation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.myTrainTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.myNaiveBayes" />
       </list>
     </recent_temporary>
   </component>
@@ -496,24 +506,31 @@
       <option name="project" value="LOCAL" />
       <updated>1528977496667</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ML&#10;&#10;交叉验证&#10;逻辑回归分类器&#10;朴素贝叶斯分类器&#10;训练集测试集划分">
+      <created>1528991556001</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1528991556002</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="44" width="1250" height="920" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38275862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18844493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.50517243" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.475" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39548692" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -604,7 +621,8 @@
     <MESSAGE value="机器学习：&#10;简单分类&#10;机器学习方面进度较慢，需要调整。" />
     <MESSAGE value="threading" />
     <MESSAGE value="signal模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="signal模块" />
+    <MESSAGE value="ML&#10;&#10;交叉验证&#10;逻辑回归分类器&#10;朴素贝叶斯分类器&#10;训练集测试集划分" />
+    <option name="LAST_COMMIT_MESSAGE" value="ML&#10;&#10;交叉验证&#10;逻辑回归分类器&#10;朴素贝叶斯分类器&#10;训练集测试集划分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,6 +631,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/httpserver/myHttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#115#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gevent/myGevent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/threading/myGILTest.py" />
     <entry file="file://$PROJECT_DIR$/net/myForkClient.py" />
     <entry file="file://$PROJECT_DIR$/net/myForkServer.py" />
@@ -656,13 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -754,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="87" selection-end-column="10" />
-          <folding>
-            <element signature="e#112#122#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="78" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,15 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-813">
           <caret line="3175" column="4" lean-forward="false" selection-start-line="3175" selection-start-column="4" selection-end-line="3175" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,9 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="83" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <element signature="e#114#124#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,9 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="89" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="89" selection-end-column="10" />
-          <folding>
-            <element signature="e#113#131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +827,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/httpserver/myHttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
-            <element signature="e#119#137#0" expanded="true" />
+            <element signature="e#115#135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/httpserver/myClientTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gevent/myGevent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/multiprocessing/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
