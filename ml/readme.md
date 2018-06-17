@@ -16,5 +16,24 @@
     - 4 线性回归
     - 5 岭回归
     - 6 多项式回归
+    - 7 决策树回归和自适应增强决策树回归
+    - 8 简单分类器
+    - 9 逻辑回归分类器
+    - 10 朴素贝叶斯分类器
+    - 11 划分训练集和测试集
+    - 12 用交叉验证检验模型的准确性
+    - 13 混淆矩阵 `sklearn.metrics.confusion_matrix()`
+    - 14 性能报告 `sklearn.metrics.classfication_report()`
+    - 15 汽车质量评估 `sklearn.ensemble.RandomForestClassifier()`
+    - 16 验证曲线 `sklearn.model_selection.validation_curve()`
+    - 17 学习曲线 `sklearn.model_selection.learning_curve()`
+    - 18 完整分类学习过程 `sklearn.naive_bayes.GaussianNB()`
+    - 19 svm线性分类器 `sklearn.svm.SVC(kernel='linear')`
+    - 20 svm多项式非线性分类器 `sklearn.svm.SVC(kernel='poly')`
+    - 21 svm径向基函数非线性分类器 `sklearn.svm.SVC(kernel='rbf')`
+    - 22 解决类型数量不平衡问题 `sklearn.svm.SVC(kernel='linear', class_weight='balanced')`
+    - 23 置信度 `model.predict_proba()`
+    - 24 最优超参数 `sklearn.model_selection.GridSearchCV()`
+    - 25 事件预测 ``
 2. `data`:相关训练数据文件
 3. `mymodel`:保存的训练好的模型
