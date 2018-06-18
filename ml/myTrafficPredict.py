@@ -1,12 +1,14 @@
-# @Time    : 2018/6/17 11:22
+# @Time    : 2018/6/17 22:54
 # @Author  : cap
-# @FileName: myEventPredict.py
+# @FileName: myTrafficPredict.py
 # @Software: PyCharm Community Edition
-# @introduction: 事件分类预测
+# @introduction: 交通流量预测
+
 import numpy as np
 import sklearn.model_selection as ms
 import sklearn.svm as svm
 import sklearn.preprocessing as sp
+import sklearn.metrics as sm
 
 
 class DigitEncoder():
@@ -27,9 +29,9 @@ def read_data(filename):
         for line in f.readlines():
             line_data = line[:-1].split(',')
             data.append(line_data)
-        data = np.delete(np.array(data).T, 1, 0)
 
         encoders, x = [], []
+        data = np.array(data).T
         for row in range(len(data)):
             if data[row, 0].isdigit():
                 encoder = DigitEncoder()
@@ -45,7 +47,7 @@ def read_data(filename):
 
 
 def train_model(x, y):
-    model = svm.SVC(kernel='rbf', class_weight='balanced')
+    model = svm.SVR(kernel='rbf', C=10, epsilon=0.2)
     model.fit(x, y)
     return model
 
@@ -54,20 +56,18 @@ def pred_model(model, x):
     return model.predict(x)
 
 
-# 确定预测精度
-def eval_ac(y, pred_y):
-    ac = (y == pred_y).sum() / pred_y.size
-    print('Accuracy: {}%'.format(round(ac * 100, 2)))
-
-
-def eval_cv(model, x, y):
-    ac = ms.cross_val_score(model, x, y, cv=5, scoring='accuracy')
-    print(round(ac.mean(), 2))
+def eval_model(y, pred_y):
+    mae = sm.mean_absolute_error(y, pred_y)
+    mse = sm.mean_squared_error(y, pred_y)
+    mde = sm.median_absolute_error(y, pred_y)
+    evs = sm.explained_variance_score(y, pred_y)
+    r2s = sm.r2_score(y, pred_y)
+    print(mae, mse, mde, evs, r2s)
 
 
 def make_data(encoders):
     data = [
-        ['Tuesday', '12:30:00', '21', '23']
+        ['Tuesday', '13:35', 'San Francisco', 'yes']
     ]
     data = np.array(data).T
     x = []
@@ -80,14 +80,13 @@ def make_data(encoders):
 
 
 def main():
-    encoders, x, y = read_data('./data/event.txt')
+    encoders, x, y = read_data('./data/traffic.txt')
     train_x, test_x, train_y, test_y = \
         ms.train_test_split(x, y, test_size=0.25, random_state=5)
     model = train_model(train_x, train_y)
-    eval_cv(model, x, y)
 
     pred_y = pred_model(model, test_x)
-    eval_ac(test_y, pred_y)
+    eval_model(test_y, pred_y)
 
     new = make_data(encoders)
     pred_new = pred_model(model, new)

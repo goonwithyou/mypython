@@ -35,5 +35,13 @@
     - 23 置信度 `model.predict_proba()`
     - 24 最优超参数 `sklearn.model_selection.GridSearchCV()`
     - 25 事件预测 ``
+    - 26 估算交通流量
+    - 27 k-means聚类
+    - 28 利用聚类实现矢量量化
+    - 29 均值漂移聚类
+    - 30 凝聚层次聚类
+    - 31 评价聚类算法的效果
+    - 32 DBSCAN
+    - 33
 2. `data`:相关训练数据文件
 3. `mymodel`:保存的训练好的模型
