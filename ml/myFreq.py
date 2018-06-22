@@ -8,6 +8,7 @@ import numpy as np
 import scipy.io.wavfile as wf
 import matplotlib.pyplot as mp
 import numpy.fft as nf
+# 快速傅里叶
 
 
 def show_signal(sigs, sample_rate):
@@ -26,11 +27,11 @@ def read_signals(filename):
 
 
 def time2freq(sigs, sample_rate):
-    # 频率
+    # 频率hz，生成频率间隔为sample_rate/len(sigs)的间隔的长度为len(sigs)的等差频率数组
     freqs = nf.fftfreq(len(sigs), d= 1 / sample_rate)
     # 复数表示的x, y
     ffts = nf.fft(sigs)
-    # 斜边长度
+    # 斜边长度，声音的强度
     amps = np.abs(ffts)
     return freqs, ffts, amps
 
