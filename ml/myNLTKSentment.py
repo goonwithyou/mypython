@@ -22,7 +22,7 @@ for fileid in fileids:
         feature[word] = True
 
     pdata.append((feature, 'POSITIVE'))
-
+print('pdata:', len(pdata))
 # 负面影评
 ndata = []
 fileids = nc.movie_reviews.fileids('neg')
@@ -34,7 +34,7 @@ for fileid in fileids:
         feature[word] = True
 
     ndata.append((feature, 'NEGATIVE'))
-
+print('ndata:', len(ndata))
 pnumb, nnumb = int(0.8 * len(pdata)), int(0.8 * len(ndata))
 
 train_data = pdata[: pnumb] + ndata[: nnumb]
@@ -48,5 +48,23 @@ for top in tops[:10]:
     print(top[0])
 
 reviews = [
-
+    'It is an amazing movie.',
+    'This is a dull movie.I would never recommend it to anyone.',
+    'The cinematography is pretty grate in this movie.',
+    'This direction was terrible and the story was all over the place.'
 ]
+
+sents, probs = [], []
+for review in reviews:
+    feature = {}
+    words = review.split()
+    for word in words:
+        feature[word] = True
+    pcls = model.prob_classify(feature)
+
+    sent  = pcls.max()
+    prob = pcls.prob(sent)
+    sents.append(sent)
+    probs.append(prob)
+for review, sent, prob in zip(reviews,sents, probs):
+    print(review, '->', sent, 'prob:', prob)
