@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a027d3d7-83a3-4930-ab43-e47456e5d5ae" name="Default" comment="mongodb">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvBasic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvCorner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvEdge.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvEqualize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvFeature.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvSIFT.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myOpencvStar.py" />
+    <list default="true" id="a027d3d7-83a3-4930-ab43-e47456e5d5ae" name="Default" comment="文件整理，补充readme">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myNNNeuron.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/gevent/myGevent.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/httpserver/myClientTest.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/httpserver/myHttpServer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mongo/readme" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/ml.ipynb" afterPath="$PROJECT_DIR$/ml/ml.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_collections-checkpoint.ipynb" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_collections-checkpoint.ipynb" />
     </list>
     <ignored path="*/.ipynb_checkpoints/" />
     <ignored path=".idea/" />
     <ignored mask="*\.ipynb_checkpoints\" />
     <ignored mask="*\.idea\" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="ml/.ipynb_checkpoints/ml-checkpoint.ipynb" />
+    <ignored path="modules/.ipynb_checkpoints/modules_gevent-checkpoint.ipynb" />
+    <ignored path="modules/.ipynb_checkpoints/modules_pathlib-checkpoint.ipynb" />
+    <ignored path="mongo/.ipynb_checkpoints/index-checkpoint.ipynb" />
+    <ignored path="net/.ipynb_checkpoints/net_program_basic_2-checkpoint.ipynb" />
+    <ignored path="modules/socketserver/.ipynb_checkpoints/modules_socketserver-checkpoint.ipynb" />
+    <ignored path="modules/socket/.ipynb_checkpoints/net_socket-checkpoint.ipynb" />
+    <ignored path="modules/signal/.ipynb_checkpoints/signal-checkpoint.ipynb" />
+    <ignored path="modules/.ipynb_checkpoints/modules_re-checkpoint.ipynb" />
+    <ignored path="modules/.ipynb_checkpoints/mysql-checkpoint.ipynb" />
+    <ignored path="dl/neural_network/.ipynb_checkpoints/neural_network-checkpoint.ipynb" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,44 +38,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="myOpencvCorner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/myOpencvCorner.py">
+      <file leaf-file-name="myNNNeuron.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml/myNNNeuron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myOpencvStar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/myOpencvStar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myOpencvSIFT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml/myOpencvSIFT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myOpencvFeature.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ml/myOpencvFeature.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <element signature="e#140#156#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,14 +85,49 @@
         <option value="$PROJECT_DIR$/ml/myOpencvStar.py" />
         <option value="$PROJECT_DIR$/ml/myOpencvSIFT.py" />
         <option value="$PROJECT_DIR$/ml/myOpencvFeature.py" />
+        <option value="$PROJECT_DIR$/ml/test.py" />
+        <option value="$PROJECT_DIR$/ml/myOpencvRecog.py" />
+        <option value="$PROJECT_DIR$/ml/myOpencvPCA.py" />
+        <option value="$PROJECT_DIR$/ml/myOpencvKPCA.py" />
+        <option value="$PROJECT_DIR$/ml/myOpencvFace.py" />
+        <option value="$PROJECT_DIR$/ml/myOpencvICA.py" />
+        <option value="$PROJECT_DIR$/ml/myOpencvFaceRecog.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKToken.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKLemma.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKStem.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKSplit.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKBow.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKTfidf.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKGender.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKSentment.py" />
+        <option value="$PROJECT_DIR$/ml/.ipynb_checkpoints/myNLTKTopic.py" />
+        <option value="$PROJECT_DIR$/ml/myNLTKTopic.py" />
+        <option value="$PROJECT_DIR$/ml/data/topic.txt" />
+        <option value="$PROJECT_DIR$/ml/myNNNeuron.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="741" />
-    <option name="y" value="27" />
-    <option name="width" value="1250" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="400" />
+    <option name="y" value="31" />
+    <option name="width" value="1258" />
     <option name="height" value="920" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -151,28 +159,22 @@
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,8 +183,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
+    <property name="SearchEverywhereHistoryKey" value="distribute_covar_matrix_to_match_covariance_type&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\softfiles\workspace\git\mypython\ml" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,8 +204,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.myOpencvFeature">
-    <configuration name="myOpencvCorner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.myNLTKTopic (1)">
+    <configuration name="myNLTKGender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -209,12 +217,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myOpencvCorner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myNLTKGender.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myOpencvEqualize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myNLTKSentment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -226,12 +234,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myOpencvEqualize.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myNLTKSentment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myOpencvFeature" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myNLTKTfidf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -243,12 +251,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myOpencvFeature.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myNLTKTfidf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myOpencvSIFT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myNLTKTopic (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -260,42 +268,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myOpencvSIFT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myNLTKTopic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="myOpencvStar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myNLTKTopic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml/.ipynb_checkpoints" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mypython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/myOpencvStar.py" />
+      <option name="SCRIPT_NAME" value="D:\softfiles\workspace\git\mypython\ml\myNLTKTopic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.myOpencvEqualize" />
-      <item index="1" class="java.lang.String" itemvalue="Python.myOpencvCorner" />
-      <item index="2" class="java.lang.String" itemvalue="Python.myOpencvStar" />
-      <item index="3" class="java.lang.String" itemvalue="Python.myOpencvSIFT" />
-      <item index="4" class="java.lang.String" itemvalue="Python.myOpencvFeature" />
+      <item index="0" class="java.lang.String" itemvalue="Python.myNLTKTfidf" />
+      <item index="1" class="java.lang.String" itemvalue="Python.myNLTKGender" />
+      <item index="2" class="java.lang.String" itemvalue="Python.myNLTKSentment" />
+      <item index="3" class="java.lang.String" itemvalue="Python.myNLTKTopic" />
+      <item index="4" class="java.lang.String" itemvalue="Python.myNLTKTopic (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.myOpencvFeature" />
-        <item index="1" class="java.lang.String" itemvalue="Python.myOpencvSIFT" />
-        <item index="2" class="java.lang.String" itemvalue="Python.myOpencvStar" />
-        <item index="3" class="java.lang.String" itemvalue="Python.myOpencvCorner" />
-        <item index="4" class="java.lang.String" itemvalue="Python.myOpencvEqualize" />
+        <item index="0" class="java.lang.String" itemvalue="Python.myNLTKTopic (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.myNLTKTopic" />
+        <item index="2" class="java.lang.String" itemvalue="Python.myNLTKSentment" />
+        <item index="3" class="java.lang.String" itemvalue="Python.myNLTKGender" />
+        <item index="4" class="java.lang.String" itemvalue="Python.myNLTKTfidf" />
       </list>
     </recent_temporary>
   </component>
@@ -537,19 +545,95 @@
       <option name="project" value="LOCAL" />
       <updated>1529673357938</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ML-图像识别&#10;&#10;1. opencv_basic&#10;2. 边缘检测Sobel,Laplacian,Canny&#10;3. 均衡化(cvtColor,equalizeHist)&#10;4. 棱角检测(cornerHarris)&#10;5. star特征检测器(cv.xfeatures2d.StarDetector_create())&#10;6. SIFT特征检测器(cv.xfeatrues2d.SIFT_create())&#10;7. 图像特征值(结合start和SIFT)">
+      <created>1529677157774</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1529677157774</updated>
+    </task>
+    <task id="LOCAL-00034" summary="mongodb(补昨天的mongo学习笔记)&#10;&#10;aggregate&#10;gridfs&#10;pymongo">
+      <created>1529804308579</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1529804308579</updated>
+    </task>
+    <task id="LOCAL-00035" summary="ML&#10;&#10;图像识别，先对图像进行特征提取，使用隐马尔科夫进行训练预测。">
+      <created>1529822359955</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1529822359955</updated>
+    </task>
+    <task id="LOCAL-00036" summary="ML face recognised（opencv）&#10;&#10;视频捕捉&#10;面部定位&#10;PCA&#10;KPCA">
+      <created>1529856563046</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1529856563046</updated>
+    </task>
+    <task id="LOCAL-00037" summary="modules - re&#10;&#10;regex">
+      <created>1529926351491</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1529926351491</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ML&#10;&#10;PCA&#10;KPCA&#10;ICA">
+      <created>1530031013836</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1530031013836</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ML&#10;&#10;人脸识别">
+      <created>1530433585139</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1530433585139</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ML-nltk&#10;&#10;import nltk&#10;nltk.download()&#10;1. 分词&#10;2. 词干提取&#10;3. 词形还原&#10;4. 词块划分&#10;5. 词袋模型&#10;6. 文本分类&#10;7. 性别识别&#10;8. 情感分析">
+      <created>1530446108734</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1530446108734</updated>
+    </task>
+    <task id="LOCAL-00041" summary="NLTK&#10;&#10;主题建模&#10;开始神经网络知识">
+      <created>1530487910322</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1530487910322</updated>
+    </task>
+    <task id="LOCAL-00042" summary="modules-collections&#10;&#10;继续模块的编写，初步定于午饭和晚上后的时间，大概一个小时，计划两天一个标准模块，即便每天少写点，还是要坚持，加油">
+      <created>1530531430339</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1530531430339</updated>
+    </task>
+    <task id="LOCAL-00043" summary="文件整理，补充readme">
+      <created>1530532902580</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1530532902580</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="741" y="27" width="1250" height="920" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28534484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18574513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.50517243" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23472223" sideWeight="0.50770545" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5263889" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33472222" sideWeight="0.49655172" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32304037" sideWeight="0.49229452" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -584,6 +668,9 @@
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -614,17 +701,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update readme" />
-    <MESSAGE value="文件名定义imp导致导入错误" />
-    <MESSAGE value="multiprocessing-process, pool, pipe queue, value, array&#10;neuralnetwork:python实现神经网络，数字识别（mnist）" />
-    <MESSAGE value="neuralnetwork:python实现神经网络，数字识别（mnist）" />
-    <MESSAGE value="net basic" />
-    <MESSAGE value="multiprocessing-process, pool, pipe queue, value, array" />
-    <MESSAGE value="update myprocess" />
-    <MESSAGE value="完成multiprocessing模块的相关内容，&#10;主要内容有：&#10;1. Process&#10;2. 进程池&#10;3. 进程间通信&#10;4. 同步互斥机制" />
-    <MESSAGE value="开始线程的学习，由于在python中线程和进程的相关方法比较类似，所以没有重点记录&#10;新增threading模块" />
-    <MESSAGE value="神经网络&#10;完成简单的神经网络实现，基于minist数据集&#10;对代码进行了修改和包装，新增的方法有&#10;train_model&#10;pridict_model&#10;save_params(只对训练参数进行了保存，pickle对实例的保存暂未实现)&#10;load_model等" />
-    <MESSAGE value="无关紧要的提交" />
     <MESSAGE value="机器学习：&#10;简单分类&#10;机器学习方面进度较慢，需要调整。" />
     <MESSAGE value="threading" />
     <MESSAGE value="signal模块" />
@@ -639,225 +715,26 @@
     <MESSAGE value="ml&#10;&#10;滤波，傅里叶变换" />
     <MESSAGE value="mongodb&#10;&#10;update:&#10;$set, $unset, $rename, $setOnInsert, $inc, $nul, $min, $max,&#10;$push, $pushAll, $pull, $pullAll, $each, $sort $pop, $addToSet&#10;&#10;date&#10;new Data(), ISODate('time'), Data(), ISODate().valueof()&#10;&#10;index&#10;createIndex(), getIndexes(), dropIndex(), dropIndexes()&#10;复合索引，唯一索引，稀疏索引" />
     <MESSAGE value="ML&#10;&#10;1. 基于傅里叶变换的时间域与频率域互转&#10;2. 音频特征值提取" />
-    <option name="LAST_COMMIT_MESSAGE" value="ML&#10;&#10;1. 基于傅里叶变换的时间域与频率域互转&#10;2. 音频特征值提取" />
+    <MESSAGE value="ML-图像识别&#10;&#10;1. opencv_basic&#10;2. 边缘检测Sobel,Laplacian,Canny&#10;3. 均衡化(cvtColor,equalizeHist)&#10;4. 棱角检测(cornerHarris)&#10;5. star特征检测器(cv.xfeatures2d.StarDetector_create())&#10;6. SIFT特征检测器(cv.xfeatrues2d.SIFT_create())&#10;7. 图像特征值(结合start和SIFT)" />
+    <MESSAGE value="mongodb(补昨天的mongo学习笔记)&#10;&#10;aggregate&#10;gridfs&#10;pymongo" />
+    <MESSAGE value="ML&#10;&#10;图像识别，先对图像进行特征提取，使用隐马尔科夫进行训练预测。" />
+    <MESSAGE value="ML face recognised（opencv）&#10;&#10;视频捕捉&#10;面部定位&#10;PCA&#10;KPCA" />
+    <MESSAGE value="modules - re&#10;&#10;regex" />
+    <MESSAGE value="ML&#10;&#10;PCA&#10;KPCA&#10;ICA" />
+    <MESSAGE value="ML&#10;&#10;人脸识别" />
+    <MESSAGE value="ML-nltk&#10;&#10;import nltk&#10;nltk.download()&#10;1. 分词&#10;2. 词干提取&#10;3. 词形还原&#10;4. 词块划分&#10;5. 词袋模型&#10;6. 文本分类&#10;7. 性别识别&#10;8. 情感分析" />
+    <MESSAGE value="NLTK&#10;&#10;主题建模&#10;开始神经网络知识" />
+    <MESSAGE value="modules-collections&#10;&#10;继续模块的编写，初步定于午饭和晚上后的时间，大概一个小时，计划两天一个标准模块，即便每天少写点，还是要坚持，加油" />
+    <MESSAGE value="文件整理，补充readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件整理，补充readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ml/data/car.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7128">
-          <caret line="1296" column="29" lean-forward="true" selection-start-line="1296" selection-start-column="29" selection-end-line="1296" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myNaiveBayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1669">
-          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myTrainTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1555">
-          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/load_mySingleModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1674">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myimp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1971">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myLearnCurve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/data/adult.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myCarReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/data/multiple2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="242" column="11" lean-forward="true" selection-start-line="242" selection-start-column="11" selection-end-line="242" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySVMLinear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myVerifyCurve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySVMHyper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myDefineEncoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySVMConfidence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySVMImbalance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySVMRBF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myCrossValidation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="99" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="99" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/mySVMPoly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/socketserver/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myEventPredict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/data/traffic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/data/multiple3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myTrafficPredict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myKmeanVector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myMeanShift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myKmean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myPerf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/myAggloCluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ml/mySpiral.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1249">
@@ -898,11 +775,6 @@
         <state relative-caret-position="-621">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/data/penguin.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/data/red.jpg">
@@ -952,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#145#161#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,33 +845,242 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/myOpencvSIFT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="378">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/myOpencvCorner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="594">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/myOpencvFeature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#140#156#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/penguin.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/pkgs/scikit-learn-0.19.0-np113py36_0/Lib/site-packages/sklearn/mixture/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="789" column="64" lean-forward="true" selection-start-line="789" selection-start-column="64" selection-end-line="789" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/Lib/site-packages/sklearn/mixture/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="785" column="4" lean-forward="false" selection-start-line="785" selection-start-column="4" selection-end-line="785" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/pkgs/scikit-learn-0.19.1-py36h53aea1b_0/Lib/site-packages/sklearn/mixture/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="779" column="41" lean-forward="false" selection-start-line="779" selection-start-column="41" selection-end-line="779" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/Lib/site-packages/sklearn/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1930">
+          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/Lib/site-packages/sklearn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3591">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/haar/face.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7236">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myOpencvPCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../programs/anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="579" column="56" lean-forward="true" selection-start-line="579" selection-start-column="56" selection-end-line="579" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myOpencvKPCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myOpencvFace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myOpencvRecog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="45" column="15" lean-forward="true" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/signals.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/faces/testing/Sala/image_0087.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/faces/training/Sala/image_0070.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myOpencvFaceRecog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="125" column="4" lean-forward="true" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myOpencvICA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKToken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKStem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKLemma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKSplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKBow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKTfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKGender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/data/topic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="171" lean-forward="false" selection-start-line="11" selection-start-column="171" selection-end-line="11" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKTopic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNLTKSentment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/myNNNeuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
