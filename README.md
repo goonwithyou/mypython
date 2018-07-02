@@ -14,3 +14,5 @@
 8. pandas
 9. scipy
 10. neural_network
+11. dl:深度学习
+12. mongo：mongoDB
