@@ -6,7 +6,7 @@
 ---
 1. 基础模块
     - re: 正则表达式操作
-    - collections:对dict,list,set,tuple的一些快捷操作，如链式字典，计数器（ing）
+    - collections:对dict,list,set,tuple的一些快捷操作，如链式字典，计数器
 1. 函数式编程
     - itertools: 创建迭代器以及相关迭代操作
 1. network相关模块(建议使用\*nix系统)

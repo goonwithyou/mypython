@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a027d3d7-83a3-4930-ab43-e47456e5d5ae" name="Default" comment="文件整理，补充readme">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml/myNNNeuron.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/gevent/myGevent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/httpserver/myClientTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/httpserver/myHttpServer.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mongo/readme" afterPath="" />
+    <list default="true" id="a027d3d7-83a3-4930-ab43-e47456e5d5ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_collections-checkpoint.ipynb" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_collections-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/modules_collections.ipynb" afterPath="$PROJECT_DIR$/modules/modules_collections.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/readme.md" afterPath="$PROJECT_DIR$/modules/readme.md" />
     </list>
     <ignored path="*/.ipynb_checkpoints/" />
     <ignored path=".idea/" />
@@ -26,6 +24,7 @@
     <ignored path="modules/.ipynb_checkpoints/modules_re-checkpoint.ipynb" />
     <ignored path="modules/.ipynb_checkpoints/mysql-checkpoint.ipynb" />
     <ignored path="dl/neural_network/.ipynb_checkpoints/neural_network-checkpoint.ipynb" />
+    <ignored path="basic/.ipynb_checkpoints/python_tutorial-checkpoint.ipynb" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -156,30 +154,11 @@
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypython" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -622,13 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530532902580</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="文件整理，补充readme">
+      <created>1530532987405</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1530532987405</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18574513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23472223" sideWeight="0.50770545" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5263889" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
