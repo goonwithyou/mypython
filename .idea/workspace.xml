@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a027d3d7-83a3-4930-ab43-e47456e5d5ae" name="Default" comment="">
+    <list default="true" id="a027d3d7-83a3-4930-ab43-e47456e5d5ae" name="Default" comment="机器学习-周志华（二遍）&#10;&#10;14. 概率图模型 HMM CRF MRF&#10;15. 规则学习&#10;16. 强化学习">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_collections-checkpoint.ipynb" afterPath="$PROJECT_DIR$/modules/.ipynb_checkpoints/modules_collections-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/modules_collections.ipynb" afterPath="$PROJECT_DIR$/modules/modules_collections.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/readme.md" afterPath="$PROJECT_DIR$/modules/readme.md" />
     </list>
     <ignored path="*/.ipynb_checkpoints/" />
     <ignored path=".idea/" />
@@ -36,18 +32,7 @@
     <favorites_list name="mypython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="myNNNeuron.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ml/myNNNeuron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,12 +88,13 @@
         <option value="$PROJECT_DIR$/ml/myNLTKTopic.py" />
         <option value="$PROJECT_DIR$/ml/data/topic.txt" />
         <option value="$PROJECT_DIR$/ml/myNNNeuron.py" />
+        <option value="$PROJECT_DIR$/dl/mnist/mnist_estimator.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="400" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="229" />
+    <option name="y" value="58" />
     <option name="width" value="1258" />
     <option name="height" value="920" />
   </component>
@@ -147,6 +133,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,16 +141,20 @@
               <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypython" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mypython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mypython" type="462c0819:PsiDirectoryNode" />
+              <item name="dl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../data/tensorflow" />
     <property name="SearchEverywhereHistoryKey" value="distribute_covar_matrix_to_match_covariance_type&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
@@ -299,13 +290,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528472318355</updated>
-    </task>
-    <task id="LOCAL-00001" summary="近期笔记">
-      <created>1528474128668</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1528474128668</updated>
     </task>
     <task id="LOCAL-00002" summary="1. 调整目录结构&#10;2. 完善socket，select模块">
       <created>1528518858639</created>
@@ -608,23 +592,64 @@
       <option name="project" value="LOCAL" />
       <updated>1530532987405</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="modules&#10;&#10;collections">
+      <created>1530628594019</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1530628594019</updated>
+    </task>
+    <task id="LOCAL-00046" summary="modules-numpy">
+      <created>1530802322978</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1530802322978</updated>
+    </task>
+    <task id="LOCAL-00047" summary="机器学习-周志华（二遍）&#10;&#10;1. 模型：模型评估、性能度量、比较检验&#10;2. 线性模型：线性回归，逻辑回归，线性判别，多分类和类别不平衡问题&#10;3. 决策树：划分选择、剪枝处理、连续与缺失值处理">
+      <created>1531713264702</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1531713264702</updated>
+    </task>
+    <task id="LOCAL-00048" summary="机器学习-周志华（二遍）&#10;&#10;5. 神经网络 前向传播，逆传播，&#10;6. SVM：用于文本分类&#10;7. 贝叶斯分类器：朴素贝叶斯，半朴素贝叶斯，贝叶斯网，EM&#10;8. 集成学习：boosting，bagging，RF&#10;9. cluster">
+      <created>1531734072769</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1531734072769</updated>
+    </task>
+    <task id="LOCAL-00049" summary="机器学习-周志华（二遍）&#10;&#10;10. 降维与度量学习 PCA，KPCA&#10;11. 特征选择与稀疏学习&#10;12. 计算学习理论&#10;13. 半监督学习">
+      <created>1531746026073</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1531746026073</updated>
+    </task>
+    <task id="LOCAL-00050" summary="机器学习-周志华（二遍）&#10;&#10;14. 概率图模型 HMM CRF MRF&#10;15. 规则学习&#10;16. 强化学习">
+      <created>1531755317795</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1531755317795</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <frame x="229" y="58" width="1258" height="920" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32363012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23472223" sideWeight="0.50770545" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23396675" sideWeight="0.50770545" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32304037" sideWeight="0.49229452" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5263889" sideWeight="0.4948276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2888889" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32304037" sideWeight="0.49229452" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -688,12 +713,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="机器学习：&#10;简单分类&#10;机器学习方面进度较慢，需要调整。" />
-    <MESSAGE value="threading" />
-    <MESSAGE value="signal模块" />
-    <MESSAGE value="ML&#10;&#10;交叉验证&#10;逻辑回归分类器&#10;朴素贝叶斯分类器&#10;训练集测试集划分" />
-    <MESSAGE value="itertools&#10;&#10;pathlib" />
-    <MESSAGE value="machine learning&#10;&#10;    - 13 混淆矩阵 `sklearn.metrics.confusion_matrix()`&#10;    - 14 性能报告 `sklearn.metrics.classfication_report()`&#10;    - 15 汽车质量评估 `sklearn.ensemble.RandomForestClassifier()`&#10;    - 16 验证曲线 `sklearn.model_selection.validation_curve()`&#10;    - 17 学习曲线 `sklearn.model_selection.learning_curve()`&#10;    - 18 完整分类学习过程 `sklearn.naive_bayes.GaussianNB()`&#10;    - 19 svm线性分类器 `sklearn.svm.SVC(kernel='linear')`&#10;    - 20 svm多项式非线性分类器 `sklearn.svm.SVC(kernel='poly')`&#10;    - 21 svm径向基函数非线性分类器 `sklearn.svm.SVC(kernel='rbf')`&#10;    - 22 解决类型数量不平衡问题 `sklearn.svm.SVC(kernel='linear', class_weight='balanced')`&#10;    - 23 置信度 `model.predict_proba()`&#10;    - 24 最优超参数 `sklearn.model_selection.GridSearchCV()`&#10;    - 25 事件预测 ``" />
     <MESSAGE value="socketserver&#10;&#10;用于快捷创建tcp,udp,unix,多线程，多进程的server." />
     <MESSAGE value="ML&#10;    &#10;    - 25 事件预测 ``&#10;    - 26 估算交通流量&#10;    - 27 k-means聚类&#10;    - 28 利用聚类实现矢量量化&#10;    - 29 均值漂移聚类&#10;    - 30 凝聚层次聚类&#10;    - 31 评价聚类算法的效果&#10;    - 32 DBSCAN" />
     <MESSAGE value="mongodb" />
@@ -713,7 +732,13 @@
     <MESSAGE value="NLTK&#10;&#10;主题建模&#10;开始神经网络知识" />
     <MESSAGE value="modules-collections&#10;&#10;继续模块的编写，初步定于午饭和晚上后的时间，大概一个小时，计划两天一个标准模块，即便每天少写点，还是要坚持，加油" />
     <MESSAGE value="文件整理，补充readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件整理，补充readme" />
+    <MESSAGE value="modules&#10;&#10;collections" />
+    <MESSAGE value="modules-numpy" />
+    <MESSAGE value="机器学习-周志华（二遍）&#10;&#10;1. 模型：模型评估、性能度量、比较检验&#10;2. 线性模型：线性回归，逻辑回归，线性判别，多分类和类别不平衡问题&#10;3. 决策树：划分选择、剪枝处理、连续与缺失值处理" />
+    <MESSAGE value="机器学习-周志华（二遍）&#10;&#10;5. 神经网络 前向传播，逆传播，&#10;6. SVM：用于文本分类&#10;7. 贝叶斯分类器：朴素贝叶斯，半朴素贝叶斯，贝叶斯网，EM&#10;8. 集成学习：boosting，bagging，RF&#10;9. cluster" />
+    <MESSAGE value="机器学习-周志华（二遍）&#10;&#10;10. 降维与度量学习 PCA，KPCA&#10;11. 特征选择与稀疏学习&#10;12. 计算学习理论&#10;13. 半监督学习" />
+    <MESSAGE value="机器学习-周志华（二遍）&#10;&#10;14. 概率图模型 HMM CRF MRF&#10;15. 规则学习&#10;16. 强化学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="机器学习-周志华（二遍）&#10;&#10;14. 概率图模型 HMM CRF MRF&#10;15. 规则学习&#10;16. 强化学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -722,13 +747,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ml/mySpiral.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1249">
-          <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ml/data/sales.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1067,9 +1085,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dl/mnist/mnist_estimator.py" />
   </component>
 </project>
