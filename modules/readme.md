@@ -18,11 +18,13 @@
     - threading thread模块的内容和multiprocessing模块的使用方法基本类似，可以先查看multiprocessing模块的内容，这里的threading模块没有详细介绍。(ing)
     - signal : 常用于进程间的信号传递，
     
-2. server
+1. server
     - httpserver : (ing)
     - socketserver : 用于快捷创建tcp,udp,unix,多线程，多进程的server.
-3. 文件和文件夹
+1. 文件和文件夹
     - pathlib : 文件、文件夹操作
-3. 协程
+1. 协程
     - greenlet:(ing)
     - gevent:(ing)
+1. unicodedata:unicode数据库操作
+1. readline:python解释器的命令补全(ing)
