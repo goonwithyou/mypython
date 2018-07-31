@@ -28,3 +28,4 @@
     - gevent:(ing)
 1. unicodedata:unicode数据库操作
 1. readline:python解释器的命令补全(ing)
+1. pillow: 图片处理

@@ -5,7 +5,9 @@
 # @introduction: 边缘检测
 import cv2 as cv
 
-image = cv.imread('./data/chair.jpg', cv.IMREAD_GRAYSCALE)
+# image = cv.imread('./data/chair.jpg', cv.IMREAD_GRAYSCALE)
+image = cv.imread('./data/J01_2018.06.17 15_30_49.jpg', cv.IMREAD_GRAYSCALE)
+image = cv.resize(image, None, fx=0.2, fy=0.2, interpolation=cv.INTER_LINEAR)
 print(image.shape)
 print(image.dtype)
 cv.imshow('chair', image)
